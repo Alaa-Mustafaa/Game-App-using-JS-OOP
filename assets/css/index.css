@@ -1,0 +1,33 @@
+#header{
+    background-image: url(../images/wraper.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+
+nav {
+    background-color: rgb(58, 73, 123) ;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+body{
+    background-color: #272b30;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #0099cc;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #0099cc;
+}
+
+.card{
+    background-color: transparent;
+    color: white;
+}
